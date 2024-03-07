@@ -1,0 +1,108 @@
+.journal-form {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.journal-form__text {
+	width: 935px;
+	height: 41.5px;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-size: 30px;
+	&::placeholder {
+		color: #fff;
+		font-size: 30px;
+	}
+}
+
+.text__flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	svg{
+		cursor: pointer;
+	}
+}
+
+.journal-form__date {
+	width: 100%;
+	height: 41.5px;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-size: 16px;
+	&::placeholder {
+		color: #fff;
+		font-size: 16px;
+	}
+}
+
+.date__flex {
+ 	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 2px solid #474545;
+}
+
+.journal-form__tag {
+	height: 41.5px;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-size: 16px;
+	&::placeholder {
+		color: #fff;
+		font-size: 16px;
+	}
+}
+
+.tag__flex {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+   	border-bottom: 2px solid #474545;
+	   svg {
+		cursor: pointer;
+	}
+}
+
+.journal-form__textarea {
+	background: transparent;
+	border: 2px solid #474545;
+	outline:  none;
+	padding: 20px;
+	&::placeholder {
+		color: #fff;
+	}
+}
+
+.error {
+    border-bottom: 1px solid red;	
+}
+
+.textareaError {
+	border: 1px solid red;
+}
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    /* color: rgba(0, 0, 0, 0); */
+    opacity: 0;
+    /* background: url(../../assets/Frame.svg) no-repeat;
+    width: 100%;
+    height: 20px;
+    border-width: thin;
+	cursor: pointer; */
+}
+
+.btn__gg {
+	width: 0;
+	height: 0;
+	background-color: transparent;
+	cursor: pointer;
+}

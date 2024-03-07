@@ -1,0 +1,23 @@
+button{
+    color: #ffffff;
+    padding: 8px, 30px, 8px, 30px;
+    background-color: #312EB5;
+    width: 135px;
+    height: 42px;
+    font-size: 16px;
+    font-family: inherit;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    border: none;
+    display: block;
+    margin-bottom: 20px;
+}
+.button:hover{
+    background-color: transparent;
+    border: 2px solid #312EB5;
+    color: #fff;
+}
+
+.button:active {
+    background-color: #312EB5;
+}
